@@ -4,6 +4,7 @@ body {background-color: #40407a; color: #000042; font-family: Arial, Helvetica, 
   .fire {max-width: 1600px; min-width: 900px; margin: 0 auto; background-color: #ffffff; } /*a part of the stylings to do with body, I named it fire cus I was mad at it.*/
   .boarder {max-width: 1500px; min-width: 800px; margin: 0 auto; }
   .header {text-align: left; margin-top: 50px; } 
+  .vid {}
   
 main {text-align: left; }
 head {text-align: left; }

@@ -1,4 +1,4 @@
-/*things on this sheet may not be exact to the way it says in the textbook*/
+/*things on this sheet may not be exact to the way it says in the textbook, though sometimes it is because I found another potentally better way to do what it was telling me to do. though more than likely I just made things more complicated. I am a litttle sorrry about that, thank you for any patience you have left.*/
 *
 body {background-color: #40407a; color: #000042; font-family: Arial, Helvetica, sans-serif; width: 84%; margin: 0 auto; } /*color is a little different from example, hope thats ok*/
   .fire {width: 100%; margin: 0 auto; background-color: #ffffff; } /*a part of the stylings to do with body, I named it fire cus I was mad at it.*/
@@ -32,7 +32,7 @@ h3 {text-align: left; }
 h4 {text-align: left; font-size: 200%; color: #ffffff; }
 h5 {text-align: left; }
 h6 {font-style: italic; color: #00008B; font-size: 90%; text-align: left; }
-footer {text-align: center; font-size: small; font-style: italic; float: right; }
+footer {text-align: center; font-size: small; font-style: italic; } /*I think working on this while doing my final is throwing me off a bit. i keep thinking i cnanged and fixed a thing, but that was on the other websight and not the one im thinking of.*/
 
 li {font-size: 90%; }
 
@@ -50,3 +50,8 @@ universal {box-sizing: border-box; }
 strong {margin: 2vw 2vh; }
 #classer {width: 20vw; margin: 0 auto; }
 #flow dt {margin: 0 auto; min-width: 140px; flex: 1 0 33.33%; }
+  table {border: 1px solid white; width: 400px; border-spacing: 20px; vertical-align: top; border-color: #40407a; border-collapse: collapse; font-style: bold; margin: 1em; font-size: 120%; }
+    #ev {background-color: #D7E;}
+
+    tr:nth-of-type(2) {background-color: #d7e8e9;}
+    tr:nth-of-type(4) {background-color: #d7e8e9;}

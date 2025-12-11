@@ -1,31 +1,30 @@
 /*things on this sheet may not be exact to the way it says in the textbook*/
 *
-body {background-color: #40407a; color: #000042; font-family: Arial, Helvetica, sans-serif; } /*color is a little different from example, hope thats ok*/
-  .fire {max-width: 80vw; min-width: 100vh; margin: 0 auto; background-color: #ffffff; } /*a part of the stylings to do with body, I named it fire cus I was mad at it.*/
-  .boarder {max-width: 69vw; min-width: 100vh; margin: 0 auto; }
+body {background-color: #40407a; color: #000042; font-family: Arial, Helvetica, sans-serif; width: 84%; margin: 0 auto; } /*color is a little different from example, hope thats ok*/
+  .fire {width: 100%; margin: 0 auto; background-color: #ffffff; } /*a part of the stylings to do with body, I named it fire cus I was mad at it.*/
+  .boarder {width: 69%; margin: 0 auto; } /*refers to page boarder*/
   .header {text-align: left; margin-top: 10vh; } 
   .vid {width: 60vw; margin: 0 auto; }
   
 main {text-align: left; }
 head {text-align: left; }
-nav {text-align: right; background-color: white; padding-top: 0em; padding-left: 0em; padding-right: 1em; padding-bottom: 1em; z-index: 99999; height: 50px; width: 100%; }
+nav {text-align: right; background-color: white; z-index: 99999; height: 50px; width: 100%; }
 	nav ul {margin: 0; padding-right: 2em; font-size: 1.2em; justify-content: flex-end; }
 	nav li {display: inline; padding-left: 4em; }
 	
 #wrapper {width: 80%; background-color: #f5f5f5; padding: 2em; margin: 0 auto; }
 #mathero {height: 20vh; background-size: 100% 100%; float: clear; display: none; }
-#loungehero {height: 20vh; background-size: 100% 100%; float: clear; display: none; }
+#loungehero {height: 20vh; background-size: 100% auto; float: clear; display: none; }
 
 #space {height: 40px} /*this is a div i created to space things out in a slightly differnt way than they do in the textbook. however it feels more organised to me.*/
 
-  .bag { width: 100%; height: auto; }
-  .lounge { width: 100%; height: auto; }
-  .door {width: 20%; height: auto; float: right; }
+  .bag { width: 100%; height: 100%; }
+  .lounge { width: 100%; height: 100%; }
   
-#header-img { width: 100vw; height: 100%; } /*image at the top of the page*/
+#header-img { width: 100%; height: 100%; } /*image at the top of the page*/
   .heading {position: relative; text-align: center; background-color: #ffffff; height: 40vh; }
-  .home { height: 50%; padding-top: 6em; padding-bottom: 8em; }
-  .content {height: 20vh; padding-top: 2em; padding-bottom: 2em; padding-left: 8em; }
+  .home { height: 50%; }
+  .content {height: 20vh;}
   .overlay {position: absolute; top: 50%; left: 50%; transform: translate(-100%, -60%); width: 40vw; height: 20vh; margin: 0 auto; }
 h1 {line-height: 400% } /*i think im still goinf to leave this in*/
 h2 {text-align: left; margin: 0; }
@@ -33,13 +32,13 @@ h3 {text-align: left; }
 h4 {text-align: left; font-size: 200%; color: #ffffff; }
 h5 {text-align: left; }
 h6 {font-style: italic; color: #00008B; font-size: 90%; text-align: left; }
-footer {text-align: center; font-size: small; font-style: italic; float, right; }
+footer {text-align: center; font-size: small; font-style: italic; float: right; }
 
 li {font-size: 90%; }
 
-img { width: 100%; height: 100%;}
+img { width: 100%; height: auto;}
 universal {box-sizing: border-box; }
-  .one {float: right; width: 21vw;margin: 1vw; } 
+  .one {float: right; width: 21vw; margin: 1vw; } 
   /*.onethird {float: right; width: 21vw; margin: 1vw; } 
   .onehalf {float: left; width: 21vw; margin: 1vw; }*/
 
@@ -49,4 +48,5 @@ universal {box-sizing: border-box; }
 
 #flow {display: flex; flex-direction: row; flex-wrap: wrap; }
 strong {margin: 2vw 2vh; }
-#classer {width: 30vw; margin: 0 auto; }
+#classer {width: 20vw; margin: 0 auto; }
+#flow dt {margin: 0 auto; min-width: 140px; flex: 1 0 33.33%; }
